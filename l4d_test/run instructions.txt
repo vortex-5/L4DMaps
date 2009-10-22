@@ -9,3 +9,10 @@ in order for it to work.
 Good luck,
 
 FanFan
+
+
+EDIT:
+
+Just added an intro camera flying took a while to figure out 
+all the new entities it looks ok but is a bit jerky apparently 
+this is a common problem I'm looking into it.
