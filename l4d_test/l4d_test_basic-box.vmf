@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4719"
-	"mapversion" "53"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "53"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -412,7 +412,7 @@ world
 		side
 		{
 			"id" "144"
-			"plane" "(-336 192 -64) (512 192 -64) (512 512 -64)"
+			"plane" "(-400 192 -64) (512 192 -64) (512 512 -64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -423,7 +423,7 @@ world
 		side
 		{
 			"id" "143"
-			"plane" "(-336 192 -64) (-336 512 -64) (-336 512 64)"
+			"plane" "(-400 192 -64) (-400 512 -64) (-400 512 64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -445,7 +445,7 @@ world
 		side
 		{
 			"id" "141"
-			"plane" "(-336 512 -64) (512 512 -64) (512 512 64)"
+			"plane" "(-400 512 -64) (512 512 -64) (512 512 64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -456,7 +456,7 @@ world
 		side
 		{
 			"id" "140"
-			"plane" "(512 192 -64) (-336 192 -64) (-336 192 64)"
+			"plane" "(512 192 -64) (-400 192 -64) (-400 192 64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -467,7 +467,7 @@ world
 		side
 		{
 			"id" "139"
-			"plane" "(-336 512 64) (512 512 64) (512 192 64)"
+			"plane" "(-400 512 64) (512 512 64) (512 192 64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -716,7 +716,7 @@ world
 		side
 		{
 			"id" "1397"
-			"plane" "(-336 -416 -64) (-336 -736 -64) (512 -736 -64)"
+			"plane" "(-400 -416 -64) (-400 -736 -64) (512 -736 -64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -727,7 +727,7 @@ world
 		side
 		{
 			"id" "1396"
-			"plane" "(-336 -736 64) (-336 -736 -64) (-336 -416 -64)"
+			"plane" "(-400 -736 64) (-400 -736 -64) (-400 -416 -64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -749,7 +749,7 @@ world
 		side
 		{
 			"id" "1394"
-			"plane" "(-336 -416 64) (-336 -416 -64) (512 -416 -64)"
+			"plane" "(-400 -416 64) (-400 -416 -64) (512 -416 -64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -760,7 +760,7 @@ world
 		side
 		{
 			"id" "1393"
-			"plane" "(512 -736 64) (512 -736 -64) (-336 -736 -64)"
+			"plane" "(512 -736 64) (512 -736 -64) (-400 -736 -64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -771,7 +771,7 @@ world
 		side
 		{
 			"id" "1392"
-			"plane" "(-336 -736 64) (-336 -416 64) (512 -416 64)"
+			"plane" "(-400 -736 64) (-400 -416 64) (512 -416 64)"
 			"material" "DE_NUKE/NUKE_METALFLOOR_01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
