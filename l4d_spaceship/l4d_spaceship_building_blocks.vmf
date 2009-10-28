@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4719"
-	"mapversion" "57"
+	"mapversion" "65"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "57"
+	"mapversion" "65"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30874,123 +30874,6 @@ entity
 }
 entity
 {
-	"id" "38136"
-	"classname" "func_door"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"dmg" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"forceclosed" "0"
-	"health" "0"
-	"ignoredebris" "0"
-	"lip" "0"
-	"locked_sentence" "0"
-	"loopmovesound" "1"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"movedir" "1 0 0"
-	"noise1" "Doors.Move11"
-	"origin" "-12 -32 184"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"spawnflags" "12"
-	"spawnpos" "0"
-	"speed" "30"
-	"targetname" "Door_Movement_01L"
-	"unlocked_sentence" "0"
-	"wait" "6"
-	solid
-	{
-		"id" "38133"
-		side
-		{
-			"id" "21942"
-			"plane" "(-32 -24 240) (8 -24 240) (8 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21941"
-			"plane" "(-32 -40 128) (8 -40 128) (8 -24 128)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21940"
-			"plane" "(-32 -24 240) (-32 -40 240) (-32 -40 128)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21939"
-			"plane" "(8 -24 128) (8 -40 128) (8 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21938"
-			"plane" "(8 -24 240) (-32 -24 240) (-32 -24 128)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21937"
-			"plane" "(8 -40 128) (-32 -40 128) (-32 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 -2768]"
-	}
-}
-entity
-{
 	"id" "38193"
 	"classname" "func_door"
 	"disablereceiveshadows" "0"
@@ -31009,9 +30892,9 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"movedir" "-1 0 0"
+	"movedir" "0 0 0"
 	"noise1" "Doors.Move11"
-	"origin" "46 -32 184"
+	"origin" "49 -32 184"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -31028,8 +30911,8 @@ entity
 		side
 		{
 			"id" "21960"
-			"plane" "(26 -24 240) (66 -24 240) (66 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(26 -40 240) (26 -24 240) (72 -24 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 -40] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31039,8 +30922,8 @@ entity
 		side
 		{
 			"id" "21959"
-			"plane" "(26 -40 128) (66 -40 128) (66 -24 128)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(26 -24 128) (26 -40 128) (72 -40 128)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 -40] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31050,8 +30933,8 @@ entity
 		side
 		{
 			"id" "21958"
-			"plane" "(26 -24 240) (26 -40 240) (26 -40 128)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(26 -40 128) (26 -24 128) (26 -24 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -31061,8 +30944,8 @@ entity
 		side
 		{
 			"id" "21957"
-			"plane" "(66 -24 128) (66 -40 128) (66 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(72 -24 128) (72 -40 128) (72 -40 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -31072,8 +30955,8 @@ entity
 		side
 		{
 			"id" "21956"
-			"plane" "(66 -24 240) (26 -24 240) (26 -24 128)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(26 -24 128) (72 -24 128) (72 -24 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 -40] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -31083,8 +30966,8 @@ entity
 		side
 		{
 			"id" "21955"
-			"plane" "(66 -40 128) (26 -40 128) (26 -40 240)"
-			"material" "TOOLS/TOOLSSKIP"
+			"plane" "(72 -40 128) (26 -40 128) (26 -40 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 -40] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -31229,7 +31112,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"solidbsp" "0"
-	"Solidity" "1"
+	"Solidity" "2"
 	"spawnflags" "2"
 	"StartDisabled" "0"
 	"vrad_brush_cast_shadows" "0"
@@ -31252,8 +31135,8 @@ entity
 			"id" "21976"
 			"plane" "(24 -28 140) (12 -28 128) (24 -28 128)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -320] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31263,8 +31146,8 @@ entity
 			"id" "21975"
 			"plane" "(12 -36 128) (24 -36 140) (24 -36 128)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -320] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31350,8 +31233,8 @@ entity
 			"id" "21979"
 			"plane" "(96 -28 240) (24 -28 240) (24 -28 128)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31361,8 +31244,8 @@ entity
 			"id" "21978"
 			"plane" "(96 -36 128) (24 -36 128) (24 -36 240)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31393,8 +31276,8 @@ entity
 			"id" "21988"
 			"plane" "(12 -28 176) (24 -28 164) (24 -28 204)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -64] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31404,8 +31287,8 @@ entity
 			"id" "21987"
 			"plane" "(24 -36 204) (24 -36 164) (12 -36 176)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -64] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31480,8 +31363,8 @@ entity
 			"id" "21992"
 			"plane" "(24 -28 228) (24 -28 240) (12 -28 240)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 80] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31491,8 +31374,8 @@ entity
 			"id" "21991"
 			"plane" "(12 -36 240) (24 -36 240) (24 -36 228)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 80] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32121,7 +32004,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"solidbsp" "0"
-	"Solidity" "1"
+	"Solidity" "2"
 	"spawnflags" "2"
 	"StartDisabled" "0"
 	"vrad_brush_cast_shadows" "0"
@@ -32144,8 +32027,8 @@ entity
 			"id" "22045"
 			"plane" "(8 -28 196) (20 -28 208) (20 -28 224)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32155,8 +32038,8 @@ entity
 			"id" "22044"
 			"plane" "(20 -36 208) (8 -36 196) (8 -36 236)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32220,8 +32103,8 @@ entity
 			"id" "22051"
 			"plane" "(8 -28 132) (20 -28 144) (20 -28 160)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -192] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32231,8 +32114,8 @@ entity
 			"id" "22050"
 			"plane" "(20 -36 144) (8 -36 132) (8 -36 172)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 112] 0.25"
-			"vaxis" "[0 0 -1 -192] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32329,8 +32212,8 @@ entity
 			"id" "22054"
 			"plane" "(8 -28 128) (8 -28 240) (-64 -28 240)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32340,8 +32223,8 @@ entity
 			"id" "22053"
 			"plane" "(-64 -36 128) (-64 -36 240) (8 -36 240)"
 			"material" "METAL/FREEZERWALL01"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32935,6 +32818,123 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 0]"
+	}
+}
+entity
+{
+	"id" "38818"
+	"classname" "func_door"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"loopmovesound" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"movedir" "0 180 0"
+	"noise1" "Doors.Move11"
+	"origin" "-17 -32 184"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "12"
+	"spawnpos" "0"
+	"speed" "30"
+	"targetname" "Door_Movement_01L"
+	"unlocked_sentence" "0"
+	"wait" "6"
+	solid
+	{
+		"id" "38819"
+		side
+		{
+			"id" "22116"
+			"plane" "(6 -24 240) (6 -40 240) (-40 -40 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -40] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22115"
+			"plane" "(6 -40 128) (6 -24 128) (-40 -24 128)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -40] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22114"
+			"plane" "(6 -24 128) (6 -40 128) (6 -40 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22113"
+			"plane" "(-40 -40 128) (-40 -24 128) (-40 -24 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22112"
+			"plane" "(6 -40 128) (-40 -40 128) (-40 -40 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -40] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22111"
+			"plane" "(-40 -24 128) (6 -24 128) (6 -24 240)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -40] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -2768]"
 	}
 }
 cameras
